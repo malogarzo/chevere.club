@@ -168,6 +168,7 @@ h6 { font-size: 14px; line-height: 18px; }
 }
 @media( max-width: 1200px ){
 	[data-bgtext]:before{ font-size: 330% !important; }
+
 }
 @media( max-width: 870px ){
 	[data-bgtext]:before{ display: none; }
@@ -256,10 +257,16 @@ h6:first-child
 }
 @media (max-width: 992px) {
 	.bigtext{font-size: 130px;}
+
+		.container {
+
+		border: 1px solid red;
+	}
 }
 @media (max-width: 768px) {
 	.bigtext{font-size: 70px;}
 }
+
 
 .text-light { color: #fff }
 .text-dark  { color: #000 }
@@ -776,9 +783,12 @@ a{
 	        transform: translateY(0);
 }
 #logo{
-	font-size: 24px;
+	/*font-size: 24px;*/
 	position: relative;
-	bottom: 14px;
+	/*bottom: 14px;*/
+	height: auto;
+	padding: 0 0 0 15px;
+
 }
 #iconBurguer{
 	color: #777;
@@ -890,7 +900,18 @@ a{
 	background-color: #000;
 }
 
+@media( max-width: 992px ){
 
+	.navbar-header {
+		display: flex;
+		width: 100%;
+	}
+
+	.navbar-header #logo {
+		margin: 0 auto;
+		padding-left: 0;
+	}
+}
 
 
 /* 04. MENUS
