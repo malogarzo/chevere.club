@@ -825,6 +825,7 @@ a{
 	#navbar{
 		background-color: black !important;
 	}
+
 }
 
 /*/navbar*/
@@ -931,6 +932,14 @@ a{
 	}
 }
 
+
+@media( max-width: 768px ){
+
+	#minav {
+		display: block;
+	}
+
+}
 
 /* 04. MENUS
 ---------------------------*/
