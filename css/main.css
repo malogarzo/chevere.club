@@ -762,7 +762,7 @@ a{
 /*navbar*/
 
 #navbar {
-	padding: 0.7% 0;
+	padding: 0.8% 0;
 	z-index: 1001;
 	background-color: rgba(17, 17, 17, 1);
 	-webkit-transition: all .3s ease;
@@ -901,6 +901,24 @@ a{
 }
 
 @media( max-width: 992px ){
+
+	#main-menu {
+
+		width: 718px;
+		margin: 0 auto;
+		border: 1px solid green;
+	}
+
+	#minav {
+
+		display: flex;
+		margin: 0 auto;
+		padding-top: 10px;
+		border: 1px solid;
+		border-color: transparent;
+		float: none!important;
+		justify-content: center;
+	}
 
 	.navbar-header {
 		display: flex;
