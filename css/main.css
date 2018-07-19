@@ -258,10 +258,6 @@ h6:first-child
 @media (max-width: 992px) {
 	.bigtext{font-size: 130px;}
 
-		.container {
-
-		border: 1px solid red;
-	}
 }
 @media (max-width: 768px) {
 	.bigtext{font-size: 70px;}
