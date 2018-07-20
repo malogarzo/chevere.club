@@ -913,7 +913,7 @@ a{
 		padding-top: 10px;
 		border: 1px solid;
 		border-color: transparent;
-		float: none!important;
+		float: none !important;
 		justify-content: center;
 	}
 
@@ -923,7 +923,7 @@ a{
 	}
 
 	.navbar-header #logo {
-		margin: 0 auto;
+		margin: 3px auto;
 		padding-left: 0;
 	}
 }
